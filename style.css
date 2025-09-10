@@ -1,0 +1,77 @@
+/* style.css */
+
+/* Cores da Construtora Nova Era */
+:root {
+    --primary-color: #0D3B66; /* Azul Marinho */
+    --secondary-color: #F95738; /* Laranja */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.bg-primary-nova-era {
+    background-color: var(--primary-color) !important;
+}
+
+.bg-secondary-nova-era {
+    background-color: var(--secondary-color) !important;
+}
+
+.text-primary-nova-era {
+    color: var(--primary-color) !important;
+}
+
+.text-secondary-nova-era {
+    color: var(--secondary-color) !important;
+}
+
+.btn-primary-nova-era {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: #fff;
+}
+
+.btn-primary-nova-era:hover {
+    background-color: #e54b2d;
+    border-color: #e54b2d;
+    color: #fff;
+}
+
+.carousel-caption h5, .carousel-caption p {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.card-title {
+    color: var(--primary-color);
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+.navbar-brand img {
+    height: 40px; /* Ajuste o tamanho da logo */
+}
+
+.hero-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.whatsapp-link {
+    font-size: 1.5rem;
+    color: #25D366;
+    transition: transform 0.3s;
+}
+
+.whatsapp-link:hover {
+    transform: scale(1.1);
+}
